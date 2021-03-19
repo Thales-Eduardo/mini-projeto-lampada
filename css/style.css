@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    background-color: black;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10% 0;
+}
+
+img{
+    width: 100px;
+    height: 200px;
+}
+
+.desligar{
+    margin-top: 10px;
+    height: 30px;
+    width: 80px;
+    font-size: 17px;
+    background-color: red;
+    color: white;
+}
+
+.ligar{
+    margin-top: 10px;
+    height: 30px;
+    width: 80px;
+    font-size: 17px;
+    background-color: green;
+    color: white;
+}
+
+p{
+    margin-top: 10px;
+    color: white;
+    padding: 0 20px;
+}
